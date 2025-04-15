@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <manifest>
+<manifest>
     <remote name="home"
             fetch="file:////home/r/" />
     <remote fetch="git://github.com/" name="github" />
@@ -26,7 +26,7 @@
     <!--  -->
     <!-- Android frameworks -->
     <!--  -->
-    <remove-project name="platform/art"/>
+    <!--<remove-project name="platform/art"/>
     <remove-project name="platform/bionic" />
     <remove-project name="platform/frameworks/av" />
     <remove-project name="platform/frameworks/base" />
@@ -52,6 +52,8 @@
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="home" revision="aosp-8.1" />
 
 
+    -->
+    
     <!--  -->
     <!-- App fixes -->
     <!--  -->
@@ -72,15 +74,17 @@
 
     <!--  -->
     <!-- Extras -->
-    <!--  -->
+    <!--  
 
     <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="home" revision="aosp-8.1-dev" />
 
+    -->
+    
     <!--  -->
     <!-- arm-tcg -->
     <!--  -->
     <project path="external/arm-tcg" name="arm-tcg" remote="home" revision="aosp-8.1" />
     <project path="external/libjaunt" name="libjaunt" remote="home" revision="aosp-8.1" />
 
-</manifest> -->
+</manifest>
