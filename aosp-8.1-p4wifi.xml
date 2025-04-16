@@ -62,7 +62,7 @@
     <!-- App fixes -->
     <!--  -->
     <remove-project name="platform/packages/apps/Settings" />
-    <project path="packages/apps/Settings" name="Settings" remote="home" revision="aosp-8.1-dev" />
+    <project path="packages/apps/Settings" name="platform_packages_apps_settings" remote="enessmr" revision="aosp-9.0-dev" />
 
     <!--  -->
     <!-- App additions -->
