@@ -18,10 +18,10 @@
     <!--  -->
     <!-- Devices -->
     <!--  -->
-    <project path="kernel/samsung/p4" name="decatf/android_kernel_samsung_p4" remote="home" revision="android-4.4-p4wifi" />
-    <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="home" revision="aosp-8.1-dev" />
-    <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="home" revision="aosp-oreo" />
-    <project path="vendor/samsung/p4wifi" name="android_vendor_samsung_p4wifi" remote="home" revision="aosp-8.1" />
+    <project path="kernel/samsung/p4" name="decatf/linux" remote="decatf" revision="android-4.4-p4wifi" />
+    <project path="device/samsung/p4-common" name="android_device_samsung_p4-common" remote="decatf" revision="aosp-8.1-dev" />
+    <project path="device/samsung/p4wifi" name="android_device_samsung_p4wifi" remote="decatf" revision="aosp-oreo" />
+    <project path="vendor/samsung/p4wifi" name="android_vendor_samsung_p4wifi" remote="decatf" revision="aosp-8.1" />
     <project path="vendor/decatf" name="android_vendor_decatf" remote="home" revision="aosp-8.0" />
 
     <!--  -->
@@ -88,7 +88,7 @@
     <!--  -->
     <!-- arm-tcg -->
     <!--  -->
-    <project path="external/arm-tcg" name="arm-tcg" remote="home" revision="aosp-8.1" />
-    <project path="external/libjaunt" name="libjaunt" remote="home" revision="aosp-8.1" />
+    <project path="external/arm-tcg" name="arm-tcg" remote="decatf" revision="main" />
+    <project path="external/libjaunt" name="libjaunt" remote="decatf" revision="aosp-8.1" />
 
 </manifest>
