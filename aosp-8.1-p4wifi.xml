@@ -44,7 +44,7 @@
 
     <project path="art" name="android_art" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="bionic" name="platform_bionic" remote="enessmr" revision="aosp-9.0-dev" />
-    <project path="frameworks/av" name="android_frameworks_av" remote="enessmr" revision="aosp-9.0-dev" />
+    <project path="frameworks/av" name="platform_frameworks_av" remote="enessmr" revision="aosp-9.0-dev" />
 
     
     <!-- do not use this manifest -->
