@@ -30,8 +30,8 @@
     <remove-project name="platform/art"/>
     <remove-project name="platform/bionic" />
     <remove-project name="platform/frameworks/av" />
-    <!-- <remove-project name="platform/frameworks/base" />
-    <remove-project name="platform/frameworks/native" />
+    <remove-project name="platform/frameworks/base" />
+    <!--<remove-project name="platform/frameworks/native" />
     <remove-project name="platform/system/bt" />
     <remove-project name="platform/system/core" />
     <remove-project name="platform/system/sepolicy" />
@@ -50,8 +50,8 @@
     <!-- do not use this manifest -->
 
     
-    <!-- <project path="frameworks/base" name="platform_frameworks_base" remote="decatf" revision="aosp-8.1-dev" />
-    <project path="frameworks/native" name="native" remote="home" revision="aosp-8.1-dev" />
+    <project path="frameworks/base" name="platform_frameworks_base" remote="decatf" revision="aosp-8.1-dev" />
+    <!--<project path="frameworks/native" name="native" remote="home" revision="aosp-8.1-dev" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="home" revision="aosp-8.1-dev" />
     <project path="system/core" name="platform_system_core" remote="home" revision="aosp-8.1-dev" />
     <project path="system/bt" name="android_system_bt" remote="home" revision="aosp-8.1-dev" />
