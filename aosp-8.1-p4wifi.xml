@@ -7,10 +7,10 @@
     <remote fetch="https://github.com/enessmr/" name="enessmr" />
 
     <remove-project name="platform/build" />
-    <project path="build" name="android_build" remote="home" revision="aosp-8.1-dev" />
+    <project path="build" name="platform_build" remote="enessmr" revision="aosp-9.0-dev" />
 
     <remove-project name="platform/build/soong" />
-    <project path="build/soong" name="android_build_soong" remote="home" revision="aosp-8.1-dev" >
+    <project path="build/soong" name="android_build_soong" remote="enessmr" revision="aosp-9.0-dev" >
         <linkfile src="root.bp" dest="Android.bp" />
         <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
     </project>
