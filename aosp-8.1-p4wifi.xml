@@ -33,14 +33,17 @@
     <remove-project name="platform/frameworks/base" />
     <remove-project name="platform/frameworks/native" />
     <remove-project name="platform/system/bt" />
-    <!--<remove-project name="platform/system/core" />
     <remove-project name="platform/system/sepolicy" />
     <remove-project name="platform/frameworks/opt/net/wifi"/>
-    <remove-project name="platform/external/chromium-webview" /> -->
+    <remove-project name="platform/external/chromium-webview" />
 
     <!-- sadly hidl is gone 😭 
     <remove-project name="platform/hardware/interfaces" />
     <project path="hardware/interfaces" name="android_hardware_interfaces" remote="home" revision="aosp-8.1" /> -->
+
+    <!-- help i cant merge dat 😭
+    <project path="system/core" name="platform_system_core" remote="home" revision="aosp-8.1-dev" />
+    <remove-project name="platform/system/core" /> -->
 
     <project path="art" name="android_art" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="bionic" name="platform_bionic" remote="enessmr" revision="aosp-9.0-dev" />
@@ -49,13 +52,10 @@
     <project path="frameworks/native" name="native" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="decatf" revision="aosp-8.1-dev" />
     <project path="system/bt" name="android_system_bt" remote="decatf" revision="aosp-8.1-dev" />
-    
-    
-    <!-- do not use this manifest -->
+    <project path="system/sepolicy" name="android_system_sepolicy" remote="home" revision="aosp-8.1-dev" />
 
     
-    <!--<project path="system/core" name="platform_system_core" remote="home" revision="aosp-8.1-dev" />
-    <project path="system/sepolicy" name="android_system_sepolicy" remote="home" revision="aosp-8.1-dev" /> -->
+    <!-- do not use this manifest -->
 
     
     <!--  -->
