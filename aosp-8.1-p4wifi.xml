@@ -49,7 +49,7 @@
     <project path="bionic" name="platform_bionic" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="frameworks/av" name="platform_frameworks_av" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="frameworks/base" name="platform_frameworks_base" remote="enessmr" revision="aosp-9.0-dev" />
-    <project path="frameworks/native" name="native" remote="enessmr" revision="aosp-9.0-dev" />
+    <project path="frameworks/native" name="platform_frameworks_native" remote="enessmr" revision="aosp-9.0-dev" />
     <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="decatf" revision="aosp-8.1-dev" />
     <project path="system/bt" name="android_system_bt" remote="decatf" revision="aosp-8.1-dev" />
     <project path="system/sepolicy" name="android_system_sepolicy" remote="home" revision="aosp-8.1-dev" />
@@ -80,7 +80,7 @@
     <!-- Extras -->
     <!-- -->  
 
-    <reove-project name="platform/bootable/recovery" />
+    <remove-project name="platform/bootable/recovery" />
     <project path="bootable/recovery" name="android_bootable_recovery" remote="decatf" revision="aosp-8.1-dev" />
 
     
