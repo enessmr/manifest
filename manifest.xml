@@ -698,5 +698,5 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <include name="aosp-8.1-p4wifi.xml" />
+  <include name="aosp-9.0-p4wifi.xml" />
 </manifest>
